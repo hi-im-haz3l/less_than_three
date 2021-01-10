@@ -19,7 +19,7 @@ elif quest == 'n' or quest == 'N':
     if option == '':
         nope = nope + 2
         paragraph += 'Con đôi lúc còn mất tập trung nên chưa nắm được các cấu trúc hôm nay được dạy, con cố gắng về học lại nhé.'
-    elif option == 'q':
+    elif option == 'q' or option == 'Q':
         list = []
         n = int(input("Nnumber of grammar errors: "))
         for i in range(0, n):
@@ -44,7 +44,7 @@ elif quest == 'n' or quest == 'N':
     if option == '':
         nope = nope + 2
         paragraph += ' Con đôi lúc còn mất tập trung nên chưa chú ý học phát âm cùng các bạn.'
-    elif option == 'q':
+    elif option == 'q' or option == 'Q':
         list = []
         n = int(input("Number of spelling mistakes: "))
         for i in range(0, n):
@@ -69,7 +69,7 @@ elif quest == 'n' or quest == 'N':
     if option == '':
         nope = nope + 2
         paragraph += ' Con chưa chú ý trong giờ nên quên khá nhiều tứ được dạy, con cố gắng về học lại nhé.'
-    elif option == 'q':
+    elif option == 'q' or option == 'Q':
         list = []
         n = int(input("Number of New words missed: "))
         for i in range(0, n):
