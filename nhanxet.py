@@ -15,7 +15,7 @@ if quest == 'y' or quest == 'Y':
     yep = yep + 1
     paragraph += 'Con nhớ cấu trúc câu tốt.'
 elif quest == 'n' or quest == 'N':
-    option = input("Why: ")
+    option = input("Why: [Q/ ]")
     if option == '':
         nope = nope + 2
         paragraph += 'Con đôi lúc còn mất tập trung nên chưa nắm được các cấu trúc hôm nay được dạy, con cố gắng về học lại nhé.'
@@ -40,7 +40,7 @@ if quest == 'y' or quest == 'Y':
     yep = yep + 1
     paragraph += ' Con đã phát âm ổn các từ hôm nay học.'
 elif quest == 'n' or quest == 'N':
-    option = input("Why: ")
+    option = input("Why: [Q/ ]")
     if option == '':
         nope = nope + 2
         paragraph += ' Con đôi lúc còn mất tập trung nên chưa chú ý học phát âm cùng các bạn.'
@@ -65,7 +65,7 @@ if quest == 'y' or quest == 'Y':
     yep = yep + 1
     paragraph += ' Con nhớ từ và tiếp thu ý nghĩa các từ tốt.'
 elif quest == 'n' or quest == 'N':
-    option = input("Why: ")
+    option = input("Why: [Q/ ]")
     if option == '':
         nope = nope + 2
         paragraph += ' Con chưa chú ý trong giờ nên quên khá nhiều tứ được dạy, con cố gắng về học lại nhé.'
