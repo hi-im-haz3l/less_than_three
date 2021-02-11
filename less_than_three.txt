@@ -1,0 +1,3 @@
+echo '{"song": 0, "volume": 2047}' > /var/www/haz3l/public_html/less_than_three.html
+echo '{"song": 1, "volume": 2047}' > /var/www/haz3l/public_html/less_than_three.html
+echo '{"song": 2, "volume": 2047}' > /var/www/haz3l/public_html/less_than_three.html
